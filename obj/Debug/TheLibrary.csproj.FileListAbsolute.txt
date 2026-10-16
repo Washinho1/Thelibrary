@@ -1,0 +1,8 @@
+C:\Users\Gamer\Desktop\Bookstore\obj\Debug\TheLibrary.csproj.AssemblyReference.cache
+C:\Users\Gamer\Desktop\Bookstore\obj\Debug\TheLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Desktop\Bookstore\bin\Debug\TheBookstore.exe.config
+C:\Users\Gamer\Desktop\Bookstore\bin\Debug\TheBookstore.exe
+C:\Users\Gamer\Desktop\Bookstore\bin\Debug\TheBookstore.pdb
+C:\Users\Gamer\Desktop\Bookstore\obj\Debug\TheBookstore.exe
+C:\Users\Gamer\Desktop\Bookstore\obj\Debug\TheBookstore.pdb
+C:\Users\Gamer\Desktop\Bookstore\obj\Debug\TheBookstore.exe.config
