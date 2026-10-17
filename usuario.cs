@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace TheBookstore
 {
-    internal class Class1
+    internal class usuario
     {
-        private Dictionary<string, (string , bool)> books = new Dictionary<string, (string , bool)>();
-        
-       
     }
 }
