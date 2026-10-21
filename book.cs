@@ -8,11 +8,16 @@ namespace TheBookstore
 {
     internal class book
     {
-        private Dictionary<string, string> books = new Dictionary<string, string>
+        private Dictionary<string, string> booksfree = new Dictionary<string, string>
         {
             { "dom casmurro", "sei la" },
             { "a que pena sereia", "Disney" },
             { "harry potter e a pedra", "lord voldermot" }
+
+        };
+
+        private Dictionary<string, string> booksrented = new Dictionary<string, string>
+        {
 
         };
 
@@ -21,15 +26,23 @@ namespace TheBookstore
             string book = Console.ReadLine();
             Console.WriteLine("\nDigite o nome do autor");
             string autor = Console.ReadLine();
-            books.Add(book.ToLower(), autor.ToLower());
+            booksfree.Add(book.ToLower(), autor.ToLower());
 
             Console.WriteLine("Livro adicionado, aperte qualquer coisa pra sair");
             Console.ReadKey();
         }
 
-        public void SearchBooks (){
-            foreach (var booklist in books) {
+        public void SearchBooks() {
+            Console.WriteLine("Livros disponiveis :\n");
+
+            foreach (var booklist in booksfree) {
                 Console.WriteLine($" O livro {booklist.Key} do autor {booklist.Value}.\n");
+            }
+
+            Console.WriteLine("\nLista de livros emprestado :\n");
+
+            foreach (var book in booksrented) {
+                Console.WriteLine($" o livro {book.Key} esta emprestado para {book.Value} \n");
             }
             Console.WriteLine("Aperte qualquer coisa para sair");
             Console.ReadKey();
@@ -39,16 +52,16 @@ namespace TheBookstore
         {
             Console.WriteLine("Qual o nome do livro que deseja editar");
             string bookname = Console.ReadLine();
-            if (books.ContainsKey(bookname))
+            if (booksfree.ContainsKey(bookname))
             {
-                books.Remove(bookname);
+                booksfree.Remove(bookname);
                 Console.WriteLine("Digite o nome correto do livro");
                 string newbook = Console.ReadLine();
                 Console.WriteLine("Digite o nome correto do autor");
                 string newautor = Console.ReadLine();
 
-                books.Add(newbook.ToLower(), newautor.ToLower());
-            }else
+                booksfree.Add(newbook.ToLower(), newautor.ToLower());
+            } else
             {
                 Console.WriteLine("Livro nao existe pressione algo para voltar ao menu");
                 Console.ReadKey();
@@ -58,9 +71,45 @@ namespace TheBookstore
         public void DeleteBooks() {
             Console.WriteLine("Digite o nome do livro que deseja excluir");
             string book = Console.ReadLine();
-            books.Remove(book.ToLower());
+            booksfree.Remove(book.ToLower());
         }
 
+        public void RentBook() {
+        
+           string bookname = Console.ReadLine();
+            if (booksfree.ContainsKey(bookname))
+            {
+                Console.WriteLine("Qual o nome da pessoa que deseja emprestar o livro");
+                string username = Console.ReadLine();
+
+                booksfree.Remove(bookname.ToLower());
+                booksrented.Add(bookname.ToLower(), username.ToLower());
+            }
+            else
+            {
+                Console.WriteLine("O livro nao existe ou nao esta disponivel");
+                Console.ReadKey();
+            }
+        }
+
+        public void returnBook()
+        {
+            Console.WriteLine("Digite o nome do livro que deseja devolver");
+            string bookname = Console.ReadLine();
+            if (booksrented.ContainsKey(bookname))
+            {
+                Console.WriteLine("Digite o nome do autor desse livro");
+                string autor = Console.ReadLine();
+                booksrented.Remove(bookname);
+                booksfree.Add(bookname.ToLower(), autor.ToLower());
+            }
+            else
+            {
+                Console.WriteLine("O livro nao existe ou nao esta emprestado");
+                Console.ReadKey();
+            }
+
+        }
 
 
        

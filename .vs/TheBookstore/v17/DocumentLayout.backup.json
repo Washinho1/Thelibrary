@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Gamer\\Desktop\\Bookstore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C771D97A-5403-4EBC-BF04-A0FBCBCA1403}|TheLibrary.csproj|c:\\users\\gamer\\desktop\\bookstore\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C771D97A-5403-4EBC-BF04-A0FBCBCA1403}|TheLibrary.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C771D97A-5403-4EBC-BF04-A0FBCBCA1403}|TheLibrary.csproj|c:\\users\\gamer\\desktop\\bookstore\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C771D97A-5403-4EBC-BF04-A0FBCBCA1403}|TheLibrary.csproj|solutionrelative:library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C771D97A-5403-4EBC-BF04-A0FBCBCA1403}|TheLibrary.csproj|C:\\Users\\Gamer\\Desktop\\Bookstore\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C771D97A-5403-4EBC-BF04-A0FBCBCA1403}|TheLibrary.csproj|solutionrelative:functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C771D97A-5403-4EBC-BF04-A0FBCBCA1403}|TheLibrary.csproj|C:\\Users\\Gamer\\Desktop\\Bookstore\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C771D97A-5403-4EBC-BF04-A0FBCBCA1403}|TheLibrary.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C771D97A-5403-4EBC-BF04-A0FBCBCA1403}|TheLibrary.csproj|C:\\Users\\Gamer\\Desktop\\Bookstore\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C771D97A-5403-4EBC-BF04-A0FBCBCA1403}|TheLibrary.csproj|solutionrelative:usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Gamer\\Desktop\\Bookstore\\usuario.cs",
+              "RelativeDocumentMoniker": "usuario.cs",
+              "ToolTip": "C:\\Users\\Gamer\\Desktop\\Bookstore\\usuario.cs",
+              "RelativeToolTip": "usuario.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T17:59:42.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "book.cs",
               "DocumentMoniker": "C:\\Users\\Gamer\\Desktop\\Bookstore\\book.cs",
               "RelativeDocumentMoniker": "book.cs",
               "ToolTip": "C:\\Users\\Gamer\\Desktop\\Bookstore\\book.cs",
               "RelativeToolTip": "book.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAADUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFkAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-16T17:57:48.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Functions.cs",
               "DocumentMoniker": "C:\\Users\\Gamer\\Desktop\\Bookstore\\Functions.cs",
               "RelativeDocumentMoniker": "Functions.cs",
               "ToolTip": "C:\\Users\\Gamer\\Desktop\\Bookstore\\Functions.cs",
               "RelativeToolTip": "Functions.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-16T16:48:42.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "library.cs",
               "DocumentMoniker": "C:\\Users\\Gamer\\Desktop\\Bookstore\\library.cs",
               "RelativeDocumentMoniker": "library.cs",
               "ToolTip": "C:\\Users\\Gamer\\Desktop\\Bookstore\\library.cs",
               "RelativeToolTip": "library.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAADoAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAHYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-16T15:28:10.438Z",
               "EditorCaption": ""
